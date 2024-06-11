@@ -102,6 +102,10 @@ class PackageManagerFunTest : WordSpec({
                     "conan-py/conanfile.py",
                     "conan-txt/conanfile.txt"
                 )
+                managedFilesByName["Conan2"] should containExactlyInAnyOrder(
+                    "conan-py/conanfile.py",
+                    "conan-txt/conanfile.txt"
+                )
                 managedFilesByName["GoMod"] should containExactly("gomod/go.mod")
                 managedFilesByName["Gradle"] should containExactlyInAnyOrder(
                     "gradle-groovy/build.gradle",

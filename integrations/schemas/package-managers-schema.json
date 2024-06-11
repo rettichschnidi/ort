@@ -12,6 +12,7 @@
         "CocoaPods",
         "Composer",
         "Conan",
+        "Conan2",
         "GoMod",
         "Gradle",
         "GradleInspector",

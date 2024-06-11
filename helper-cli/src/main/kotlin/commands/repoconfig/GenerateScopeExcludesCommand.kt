@@ -131,6 +131,13 @@ private fun getScopeExcludesForPackageManager(packageManagerName: String): List<
                 comment = "Packages for development only."
             )
         )
+        "Conan2" -> listOf(
+            ScopeExclude(
+                pattern = "build_requires",
+                reason = ScopeExcludeReason.BUILD_DEPENDENCY_OF,
+                comment = "Packages for building the code only."
+            )
+        )
         "GoMod" -> listOf(
             ScopeExclude(
                 pattern = "vendor",

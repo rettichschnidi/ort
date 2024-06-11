@@ -116,6 +116,12 @@ ort:
         options:
           lockfileName: "lockfile.lock"
 
+      Conan2:
+        # Holds a name of the lockfile. Required if allowDynamicVersions = false.
+        # The lockfile should be located in the same directory as the conanfile.py or conanfile.txt.
+        options:
+          lockfileName: "lockfile.lock"
+
   advisor:
     # A flag to control whether excluded scopes and paths should be skipped when giving the advice.
     skipExcluded: true

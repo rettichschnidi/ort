@@ -151,6 +151,7 @@ private fun createRequest(pkg: Package): VulnerabilitiesForPackageRequest? {
         "Bower" -> null
         "Composer" -> Ecosystem.PACKAGIST
         "Conan" -> Ecosystem.CONAN_CENTER
+        "Conan2" -> Ecosystem.CONAN_CENTER
         "Crate" -> Ecosystem.CRATES_IO
         "Gem" -> Ecosystem.RUBY_GEMS
         "Go" -> Ecosystem.GO
