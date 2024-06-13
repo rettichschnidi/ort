@@ -1,0 +1,415 @@
+[
+  {
+    "revision": "0",
+    "reference": "bzip2/1.0.8",
+    "is_ref": true,
+    "display_name": "bzip2/1.0.8",
+    "id": "eedb884d267ada4d3354d3d124e3c88550ec33c1",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://sourceware.org/bzip2",
+    "license": [
+      "bzip2-1.0.8"
+    ],
+    "description": "bzip2 is a free and open-source file compression program that uses the Burrows Wheeler algorithm.",
+    "topics": [
+      "data-compressor",
+      "file-compression"
+    ],
+    "provides": [
+      "bzip2"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2023-12-26 12:57:08 UTC",
+    "required_by": [
+      "pcre2/10.42"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "expat/2.5.0",
+    "is_ref": true,
+    "display_name": "expat/2.5.0",
+    "id": "9152488a2cb1b9f84aab0a3d1bf3e8baccc7fbac",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://github.com/libexpat/libexpat",
+    "license": [
+      "MIT"
+    ],
+    "description": "Fast streaming XML parser written in C.",
+    "topics": [
+      "xml",
+      "parsing"
+    ],
+    "provides": [
+      "expat"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2023-05-20 17:19:47 UTC",
+    "required_by": [
+      "conanfile.py (poco/None)"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "libmysqlclient/8.1.0",
+    "is_ref": true,
+    "display_name": "libmysqlclient/8.1.0",
+    "id": "335ad64953a1e9677ac7fbfdc2d0e7ba84b0acd8",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://dev.mysql.com/downloads/mysql/",
+    "license": [
+      "GPL-2.0"
+    ],
+    "description": "A MySQL client library for C development.",
+    "topics": [
+      "mysql",
+      "sql",
+      "connector",
+      "database"
+    ],
+    "provides": [
+      "libmysqlclient"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2024-01-03 10:17:39 UTC",
+    "required_by": [
+      "conanfile.py (poco/None)"
+    ],
+    "requires": [
+      "openssl/3.0.0",
+      "zlib/1.2.12",
+      "zstd/1.5.5",
+      "lz4/1.9.4"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "libpq/15.4",
+    "is_ref": true,
+    "display_name": "libpq/15.4",
+    "id": "58aa52996642505eee5f4042cedcf9b4d1c57eb4",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://www.postgresql.org/docs/current/static/libpq.html",
+    "license": [
+      "PostgreSQL"
+    ],
+    "description": "The library used by all the standard PostgreSQL tools.",
+    "topics": [
+      "libpq",
+      "postgresql",
+      "database",
+      "db"
+    ],
+    "provides": [
+      "libpq"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2024-06-04 17:58:54 UTC",
+    "required_by": [
+      "conanfile.py (poco/None)"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "lz4/1.9.4",
+    "is_ref": true,
+    "display_name": "lz4/1.9.4",
+    "id": "58aa52996642505eee5f4042cedcf9b4d1c57eb4",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://github.com/lz4/lz4",
+    "license": [
+      "BSD-2-Clause",
+      "BSD-3-Clause"
+    ],
+    "description": "Extremely Fast Compression algorithm",
+    "topics": [
+      "compression"
+    ],
+    "provides": [
+      "lz4"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2023-08-16 11:46:45 UTC",
+    "required_by": [
+      "libmysqlclient/8.1.0"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "openssl/3.0.0",
+    "is_ref": true,
+    "display_name": "openssl/3.0.0",
+    "id": "2d0839be8c2aff786ef68cd2f814df17f6c1e44f",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://github.com/openssl/openssl",
+    "license": [
+      "Apache-2.0"
+    ],
+    "description": "A toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols",
+    "topics": [
+      "openssl",
+      "ssl",
+      "tls",
+      "encryption",
+      "security"
+    ],
+    "provides": [
+      "openssl"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2022-06-29 18:09:18 UTC",
+    "required_by": [
+      "conanfile.py (poco/None)",
+      "libmysqlclient/8.1.0"
+    ],
+    "requires": [
+      "zlib/1.2.12"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "pcre2/10.42",
+    "is_ref": true,
+    "display_name": "pcre2/10.42",
+    "id": "dbd0bffb28f6a3448538e0da4a3d2c687f13ccb1",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://www.pcre.org/",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "description": "Perl Compatible Regular Expressions",
+    "topics": [
+      "regex",
+      "regexp",
+      "perl"
+    ],
+    "provides": [
+      "pcre2"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2024-02-20 13:31:34 UTC",
+    "required_by": [
+      "conanfile.py (poco/None)"
+    ],
+    "requires": [
+      "zlib/1.2.12",
+      "bzip2/1.0.8"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "sqlite3/3.43.2",
+    "is_ref": true,
+    "display_name": "sqlite3/3.43.2",
+    "id": "d76fff3ddb362731f7aebcf245842738e8c3536b",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://www.sqlite.org",
+    "license": [
+      "Unlicense"
+    ],
+    "description": "Self-contained, serverless, in-process SQL database engine.",
+    "topics": [
+      "sqlite",
+      "database",
+      "sql",
+      "serverless"
+    ],
+    "provides": [
+      "sqlite3"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2024-02-13 08:47:01 UTC",
+    "required_by": [
+      "conanfile.py (poco/None)"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "zlib/1.2.12",
+    "is_ref": true,
+    "display_name": "zlib/1.2.12",
+    "id": "58aa52996642505eee5f4042cedcf9b4d1c57eb4",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://zlib.net",
+    "license": [
+      "Zlib"
+    ],
+    "description": "A Massively Spiffy Yet Delicately Unobtrusive Compression Library (Also Free, Not to Mention Unencumbered by Patents)",
+    "topics": [
+      "zlib",
+      "compression"
+    ],
+    "provides": [
+      "zlib"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2024-01-23 09:39:50 UTC",
+    "required_by": [
+      "pcre2/10.42",
+      "openssl/3.0.0",
+      "conanfile.py (poco/None)",
+      "libmysqlclient/8.1.0"
+    ]
+  },
+  {
+    "revision": "0",
+    "reference": "zstd/1.5.5",
+    "is_ref": true,
+    "display_name": "zstd/1.5.5",
+    "id": "1b42805060664efc1b156880a1dd57f370e8d371",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "remote": {
+      "name": "conancenter",
+      "url": "https://center.conan.io"
+    },
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://github.com/facebook/zstd",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "description": "Zstandard - Fast real-time compression algorithm",
+    "topics": [
+      "zstandard",
+      "compression",
+      "algorithm",
+      "decoder"
+    ],
+    "provides": [
+      "zstd"
+    ],
+    "recipe": "Cache",
+    "package_revision": null,
+    "binary": "Missing",
+    "binary_remote": "conancenter",
+    "creation_date": "2024-05-13 13:31:40 UTC",
+    "required_by": [
+      "libmysqlclient/8.1.0"
+    ]
+  },
+  {
+    "reference": "conanfile.py (poco/None)",
+    "is_ref": false,
+    "display_name": "conanfile.py (poco/None)",
+    "id": "2f5bc7a533b24ceca96c1125d3a24c4614e98515",
+    "build_id": null,
+    "context": "host",
+    "invalid_build": false,
+    "url": "https://github.com/conan-io/conan-center-index",
+    "homepage": "https://pocoproject.org",
+    "license": [
+      "BSL-1.0"
+    ],
+    "description": "Modern, powerful open source C++ class libraries for building network- and internet-based applications that run on desktop, server, mobile and embedded systems.",
+    "topics": [
+      "building",
+      "networking",
+      "server",
+      "mobile",
+      "embedded"
+    ],
+    "provides": [
+      "poco"
+    ],
+    "requires": [
+      "pcre2/10.42",
+      "zlib/1.2.12",
+      "expat/2.5.0",
+      "sqlite3/3.43.2",
+      "openssl/3.0.0",
+      "libpq/15.4",
+      "libmysqlclient/8.1.0"
+    ]
+  }
+]

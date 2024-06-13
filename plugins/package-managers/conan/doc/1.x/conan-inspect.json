@@ -1,0 +1,192 @@
+{
+  "name": "poco",
+  "version": null,
+  "url": "https://github.com/conan-io/conan-center-index",
+  "homepage": "https://pocoproject.org",
+  "license": "BSL-1.0",
+  "author": null,
+  "description": "Modern, powerful open source C++ class libraries for building network- and internet-based applications that run on desktop, server, mobile and embedded systems.",
+  "topics": [
+    "building",
+    "networking",
+    "server",
+    "mobile",
+    "embedded"
+  ],
+  "generators": [
+    "txt"
+  ],
+  "exports": null,
+  "exports_sources": null,
+  "short_paths": false,
+  "apply_env": true,
+  "build_policy": null,
+  "revision_mode": "hash",
+  "settings": [
+    "os",
+    "arch",
+    "compiler",
+    "build_type"
+  ],
+  "options": {
+    "shared": [
+      true,
+      false
+    ],
+    "fPIC": [
+      true,
+      false
+    ],
+    "enable_fork": [
+      true,
+      false
+    ],
+    "enable_active_record": [
+      true,
+      false,
+      "deprecated"
+    ],
+    "enable_apacheconnector": [
+      true,
+      false
+    ],
+    "enable_cppparser": [
+      true,
+      false
+    ],
+    "enable_crypto": [
+      true,
+      false
+    ],
+    "enable_data": [
+      true,
+      false
+    ],
+    "enable_data_mysql": [
+      true,
+      false
+    ],
+    "enable_data_odbc": [
+      true,
+      false
+    ],
+    "enable_data_postgresql": [
+      true,
+      false
+    ],
+    "enable_data_sqlite": [
+      true,
+      false
+    ],
+    "enable_encodings": [
+      true,
+      false
+    ],
+    "enable_json": [
+      true,
+      false
+    ],
+    "enable_jwt": [
+      true,
+      false
+    ],
+    "enable_mongodb": [
+      true,
+      false
+    ],
+    "enable_net": [
+      true,
+      false
+    ],
+    "enable_netssl": [
+      true,
+      false
+    ],
+    "enable_netssl_win": [
+      true,
+      false
+    ],
+    "enable_pdf": [
+      true,
+      false
+    ],
+    "enable_pagecompiler": [
+      true,
+      false
+    ],
+    "enable_pagecompiler_file2page": [
+      true,
+      false
+    ],
+    "enable_pocodoc": [
+      true,
+      false
+    ],
+    "enable_redis": [
+      true,
+      false
+    ],
+    "enable_sevenzip": [
+      true,
+      false
+    ],
+    "enable_util": [
+      true,
+      false
+    ],
+    "enable_xml": [
+      true,
+      false
+    ],
+    "enable_zip": [
+      true,
+      false
+    ],
+    "enable_activerecord": [
+      true,
+      false
+    ],
+    "enable_activerecord_compiler": [
+      true,
+      false
+    ],
+    "enable_prometheus": [
+      true,
+      false
+    ]
+  },
+  "default_options": {
+    "shared": false,
+    "fPIC": true,
+    "enable_fork": true,
+    "enable_active_record": "deprecated",
+    "enable_apacheconnector": false,
+    "enable_cppparser": false,
+    "enable_crypto": true,
+    "enable_data": true,
+    "enable_data_mysql": true,
+    "enable_data_odbc": false,
+    "enable_data_postgresql": true,
+    "enable_data_sqlite": true,
+    "enable_encodings": true,
+    "enable_json": true,
+    "enable_jwt": true,
+    "enable_mongodb": true,
+    "enable_net": true,
+    "enable_netssl": true,
+    "enable_netssl_win": false,
+    "enable_pdf": false,
+    "enable_pagecompiler": false,
+    "enable_pagecompiler_file2page": false,
+    "enable_pocodoc": false,
+    "enable_redis": true,
+    "enable_sevenzip": false,
+    "enable_util": true,
+    "enable_xml": true,
+    "enable_zip": true,
+    "enable_activerecord": true,
+    "enable_activerecord_compiler": false,
+    "enable_prometheus": false
+  },
+  "deprecated": null
+}

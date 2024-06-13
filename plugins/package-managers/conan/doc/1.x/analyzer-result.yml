@@ -1,0 +1,76 @@
+---
+repository:
+  vcs:
+    type: "Git"
+    url: "git@github.com:husqvarnagroup/ort.git"
+    revision: "471310f98b9ff50a80aabb5947fd7ecad17dcc38"
+    path: "plugins/package-managers/conan/doc/1.x"
+  vcs_processed:
+    type: "Git"
+    url: "ssh://git@github.com/husqvarnagroup/ort.git"
+    revision: "471310f98b9ff50a80aabb5947fd7ecad17dcc38"
+    path: "plugins/package-managers/conan/doc/1.x"
+  config: {}
+analyzer:
+  start_time: "2024-06-11T16:28:59.177077048Z"
+  end_time: "2024-06-11T16:29:00.068968465Z"
+  environment:
+    ort_version: "22.8.0-017.sha.f3d1384"
+    build_jdk: "11.0.22+7"
+    java_version: "17.0.11"
+    os: "Linux"
+    processors: 24
+    max_memory: 8589934592
+    variables:
+      HOME: "/home/reto"
+      SHELL: "/bin/bash"
+      TERM: "xterm-256color"
+      GOPATH: "/home/reto/opt/go"
+    tool_versions:
+      Conan: "1.64.1"
+  config:
+    allow_dynamic_versions: false
+    skip_excluded: false
+  result:
+    projects:
+    - id: "Conan::conanfile.py:"
+      definition_file_path: "plugins/package-managers/conan/doc/1.x/conanfile.py"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/husqvarnagroup/ort.git"
+        revision: "471310f98b9ff50a80aabb5947fd7ecad17dcc38"
+        path: "plugins/package-managers/conan/doc/1.x"
+      homepage_url: ""
+      scope_names: []
+    packages: []
+    issues:
+      'Conan::conanfile.py:':
+      - timestamp: "2024-06-11T16:29:00.003931964Z"
+        source: "Conan"
+        message: "Conan failed to resolve dependencies for path 'conanfile.py': IllegalArgumentException:\
+          \ No lockfile found in '.'. This potentially results in unstable versions\
+          \ of dependencies. To support this, enable the 'allowDynamicVersions' option\
+          \ in 'config.yml'."
+        severity: "ERROR"
+    dependency_graphs:
+      Conan:
+        nodes: []
+        edges: []
+scanner: null
+advisor: null
+evaluator: null
+resolved_configuration:
+  package_curations:
+  - provider:
+      id: "DefaultDir"
+    curations: []
+  - provider:
+      id: "DefaultFile"
+    curations: []
