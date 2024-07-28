@@ -17,9 +17,14 @@
  * License-Filename: LICENSE
  */
 
-package org.ossreviewtoolkit.plugins.packagemanagers.conan2
+package org.ossreviewtoolkit.plugins.packagemanagers.conan
 
 import org.ossreviewtoolkit.analyzer.PackageManager
+import org.ossreviewtoolkit.model.ProjectAnalyzerResult
+import org.ossreviewtoolkit.model.config.AnalyzerConfiguration
+import org.ossreviewtoolkit.model.config.RepositoryConfiguration
+import org.ossreviewtoolkit.utils.common.CommandLineTool
+import java.io.File
 
 /**
  * The [Conan](https://conan.io/) package manager for C / C++, version 2.x.
@@ -34,5 +39,12 @@ class Conan2(
     analyzerConfig: AnalyzerConfiguration,
     repoConfig: RepositoryConfiguration
 ) : PackageManager(name, analysisRoot, analyzerConfig, repoConfig), CommandLineTool {
+    override fun resolveDependencies(definitionFile: File, labels: Map<String, String>): List<ProjectAnalyzerResult> {
+        TODO("Not yet implemented")
+    }
+
+    override fun command(workingDir: File?): String {
+        TODO("Not yet implemented")
+    }
 
 }
